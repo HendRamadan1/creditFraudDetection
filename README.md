@@ -32,7 +32,7 @@ A core focus is usability—via an interactive web interface—and reproducibili
 * [Streamlit](https://streamlit.io/) for creating a web UI without HTML/JS.
 * [Imbalanced-learn](https://imbalanced-learn.org/stable/) for handling class imbalance using techniques like SMOTE.
 * [Joblib](https://joblib.readthedocs.io/) for model persistence.
-  
+* [Pandas Profiling](https://github.com/ydataai/pandas-profiling) to generate a quick statistical overview of the dataset.
 
 ---
 
@@ -41,7 +41,9 @@ A core focus is usability—via an interactive web interface—and reproducibili
 The project applies several object-oriented design patterns to keep the structure modular and maintainable:
 
 * **Abstract Factory Pattern**: Used to instantiate different types of models in a unified interface.
+* **Factory Pattern**: Helps encapsulate the logic of object creation for different model types.
 * **Builder Pattern**: Used to configure machine learning pipelines step by step.
+* **Observer Pattern**: Can be extended for tracking evaluation metrics and triggering updates in the UI.
 * **Strategy Pattern**: Applied for switching between different preprocessing or modeling techniques.
 
 These patterns help in managing complexity and enhancing flexibility when testing different models and workflows.
