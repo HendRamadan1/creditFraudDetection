@@ -82,4 +82,4 @@ creditFraudDetection/
 ## Contributors
 
 * [Hend Ramadan](https://github.com/HendRamadan1)
-* [Yousef Fawzi](https://github.com/YousefFawzi)
+* [Yousef Fawzi](https://github.com/Losif01)
