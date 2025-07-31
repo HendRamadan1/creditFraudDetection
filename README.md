@@ -32,7 +32,19 @@ A core focus is usability—via an interactive web interface—and reproducibili
 * [Streamlit](https://streamlit.io/) for creating a web UI without HTML/JS.
 * [Imbalanced-learn](https://imbalanced-learn.org/stable/) for handling class imbalance using techniques like SMOTE.
 * [Joblib](https://joblib.readthedocs.io/) for model persistence.
-* [Pandas Profiling](https://github.com/ydataai/pandas-profiling) to generate a quick statistical overview of the dataset.
+  
+
+---
+
+## Design Patterns
+
+The project applies several object-oriented design patterns to keep the structure modular and maintainable:
+
+* **Abstract Factory Pattern**: Used to instantiate different types of models in a unified interface.
+* **Builder Pattern**: Used to configure machine learning pipelines step by step.
+* **Strategy Pattern**: Applied for switching between different preprocessing or modeling techniques.
+
+These patterns help in managing complexity and enhancing flexibility when testing different models and workflows.
 
 ---
 
@@ -46,6 +58,14 @@ The GUI simplifies access to the model and predictions:
 * Non-technical users can explore model outputs without writing code
 
 It’s designed to work seamlessly with different screen sizes and encourages feedback and iteration.
+
+To run the GUI, make sure you have all required libraries installed, then run:
+
+```bash
+streamlit run app.py
+```
+
+This will launch the Streamlit app in your browser.
 
 ---
 
